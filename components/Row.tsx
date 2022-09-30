@@ -30,8 +30,8 @@ const Row = ({ title, movies }: Props) => {
   }
 
   return (
-    <div className="h-40 space-x-0.5 z-10 md:space-y-2">
-      <h2 className="w-56 cursor-pointer text-sm font-semibold text-[#e5e5e5] transition duration-200 hover:text-white md:text-2xl">
+    <div className="h-40 space-x-0.5 z-20 md:space-y-2">
+      <h2 className="w-56 cursor-pointer z-40 text-sm font-semibold text-[#e5e5e5] transition duration-200 hover:text-white md:text-2xl">
         {title}
       </h2>
       <div className="group relative md:-ml-2">
